@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b071e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.portfolio-card {
+    background-color: #1a1235;
+    width: 900px;
+    height: 550px;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative; 
+}
+
+.intro {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #ffffff;
+}
+
+.name {
+    font-family: 'Caveat', cursive;
+    font-size: 54px;
+    margin-bottom: 15px;
+}
+
+.subtitle, .tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.logo-container {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+}
+
+.brand-logo {
+    width: 550px; 
+    height: auto;
+    display: block;
+}
+
+.contacts {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: right;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+.contacts a {
+    color: #b19ffb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.contacts a:hover {
+    color: #d6cfff;
+}
